@@ -1,5 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import logo from '../../../assets/tastehome.png'
+import Mode from "../../../Layout/DarkMode/Mode";
 
 const Navbar = () => {
   const navItems = (
@@ -68,7 +69,7 @@ const Navbar = () => {
 
       <div className="navbar-end">
         <Link>
-          <button className="btn btn-outline btn-error">Appointment</button>
+          <button ><Mode/></button>
         </Link>
       </div>
     </div>

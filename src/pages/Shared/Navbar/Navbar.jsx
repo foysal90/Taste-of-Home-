@@ -1,5 +1,5 @@
-import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import logo from '../../../assets/tastehome.png'
 
 const Navbar = () => {
   const navItems = (
@@ -12,13 +12,13 @@ const Navbar = () => {
         <NavLink to="/about">About</NavLink>
       </li>
       <li>
-        <NavLink to="/services">Services</NavLink>
+      <NavLink to="/contactus">Contact us</NavLink>
       </li>
       <li>
-        <Link>Blog</Link>
+        <Link>OUR MENU</Link>
       </li>
       <li>
-        <NavLink to="/contactus">Contact us</NavLink>
+        <NavLink to="/contactus">Dashboard</NavLink>
       </li>
 
       <li>
@@ -55,8 +55,8 @@ const Navbar = () => {
           </ul>
         </div>
         <Link to="/">
-            Taste-of-Home
-          {/* <img className="w-48 h-32 mt-5" src='' alt="" /> */}
+            
+           <img className="w-40 h-28 mt-5" src={logo} alt="TASTE-OF-HOME" /> 
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

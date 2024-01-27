@@ -28,7 +28,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar bg-base-100 h-20 my-5 ">
+    <div className="navbar fixed z-10 opacity-70 max-w-screen-xl bg-black h-20 my-5 text-white ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -56,7 +56,7 @@ const Navbar = () => {
         </div>
         <Link to="/">
             
-           <img className="w-40 h-28 mt-5" src={logo} alt="TASTE-OF-HOME" /> 
+           <img className="w-40 h-28 " src={logo} alt="TASTE-OF-HOME" /> 
         </Link>
       </div>
       <div className="navbar-center hidden lg:flex">

@@ -12,7 +12,7 @@ const Featured = () => {
   });
 
   return (
-    <div className="featured-item my-20">
+    <div className="featured-item bg-fixed my-20">
       <SectionTitle subHeading={"check it out"} heading={"Featured Item"} />
       <div className="md:flex justify-center items-center py-20 px-36 gap-10">
         <div>
@@ -27,7 +27,7 @@ const Featured = () => {
             consequuntur enim magni laboriosam repellat eum ea ipsum eveniet
             officiis, incidunt in.
           </p>
-          <button className="btn btn-outline mt-3">ORDER NOW</button>
+          <button className="btn btn-outline border-0 border-b-4 text-fuchsia-500 mt-2">ORDER NOW</button>
         </div>
       </div>
     </div>

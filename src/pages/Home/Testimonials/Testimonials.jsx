@@ -22,7 +22,7 @@ const Testimonials = () => {
   return (
     <div>
       <SectionTitle
-        subHeading={"What Our Client Says"}
+        subHeading={"What Our Client Say"}
         heading={"Testimonials"}
       />
 
@@ -48,7 +48,7 @@ const Testimonials = () => {
       >
         {reviews.map((review) => (
           <SwiperSlide key={review._id}>
-           <div className="flex flex-col items-center bg-purple-600 text-white p-5 space-x-5 rounded-2xl shadow-2xl">
+           <div className="flex flex-col items-center bg-blue-950 text-white p-5 space-x-5 rounded-2xl shadow-2xl">
            <Rating style={{ maxWidth: 180 }} value={review.rating} readOnly />
             <p >{review.details}</p>
             <p className="text-3xl font-extrabold">{review.name}</p>

@@ -31,24 +31,24 @@ const Category = () => {
   className="mySwiper my-5"
 >
 <SwiperSlide >
-<img src={slide1} alt="" />
-<h1 className='text-3xl text-center uppercase -mt-20 text-white'>salads</h1>
+<img className='relative' src={slide1} alt="" />
+<h1 className='text-3xl text-center uppercase bottom-2 left-24 absolute text-white '>salads</h1>
 </SwiperSlide>
 <SwiperSlide>
 <img src={slide2} alt="" />
-<h1 className='text-3xl text-center uppercase -mt-20 text-white'>pizzas</h1>
+<h1 className='text-3xl text-center uppercase bottom-2 left-24 absolute text-white'>pizzas</h1>
 </SwiperSlide>
 <SwiperSlide>
 <img src={slide3} alt="" />
-<h1 className='text-3xl text-center uppercase -mt-20 text-white'>soups</h1>
+<h1 className='text-3xl text-center uppercase bottom-2 left-24 absolute text-white'>soups</h1>
 </SwiperSlide>
 <SwiperSlide>
 <img src={slide4} alt="" />
-<h1 className='text-3xl text-center uppercase -mt-20 text-white'>desserts</h1>
+<h1 className='text-3xl text-center uppercase  bottom-2 left-24 absolute text-white'>desserts</h1>
 </SwiperSlide>
 <SwiperSlide>
 <img src={slide5} alt="" />
-<h1 className='text-3xl text-center uppercase -mt-20 text-white'>salads</h1>
+<h1 className='text-3xl text-center uppercase bottom-2 left-24 absolute text-white'>salads</h1>
 </SwiperSlide>
 </Swiper>
        </section>

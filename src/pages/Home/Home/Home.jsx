@@ -5,19 +5,22 @@ import Featured from "../Featured/Featured";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import Testimonials from "../Testimonials/Testimonials";
 
-
 const Home = () => {
-    return (
-        <div>
-            <Helmet> <title>TOH | Home</title> </Helmet>
-            <Banner/>
-            <Category/>
-            <PopularMenu/>
-            <Featured/>
-            <Testimonials/>
-            
-        </div>
-    );
+  return (
+    <div>
+      <Helmet>
+        {" "}
+        <title>TOH | Home</title>{" "}
+      </Helmet>
+
+      <Banner />
+
+      <Category />
+      <PopularMenu />
+      <Featured />
+      <Testimonials />
+    </div>
+  );
 };
 
 export default Home;

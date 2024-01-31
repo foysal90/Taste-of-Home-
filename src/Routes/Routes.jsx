@@ -18,8 +18,12 @@ export const router = createBrowserRouter([
         path: "/menu",
         element: <Menu />,
       },
+      // {
+      //   path: "/order",
+      //   element: <OrderFood />,
+      // },
       {
-        path: "/order",
+        path: "/order/:category",
         element: <OrderFood />,
       },
     ],

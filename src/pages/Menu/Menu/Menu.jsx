@@ -26,12 +26,13 @@ const Menu = () => {
       <Cover img={menuImg} title='our menu' subTitle="Welcome To Taste of Home exiting Home Made Authentic Food"/>
       <SectionTitle subHeading="Don't miss" heading="Today's offer" />
       <MenuCategory items={offered} />
-      <MenuCategory items={dessert} img={dessertImg} title={"desserts"}/>
+      <MenuCategory items={dessert} img={dessertImg} title={"dessert"}/>
       <MenuCategory items={pizza} img={pizzaImg} title={"pizza"}/>
-      <MenuCategory items={salad} title={"salads"} subTitle={"Healthy Salads"} img={saladImg}/>
-      <MenuCategory items={soup} title={"soups"} subTitle={"Hot and delicious soup"} img={soupImg}/>
+      <MenuCategory items={salad} title={"salad"} subTitle={"Healthy Salads"} img={saladImg}/>
+      <MenuCategory items={soup} title={"soup"} subTitle={"Hot and delicious soup"} img={soupImg}/>
         
       </div>
+      
     
   );
 };
